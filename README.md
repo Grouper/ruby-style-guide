@@ -165,6 +165,20 @@
       )
     end
     ```
+* Indent private and protected methods one extra tab (underneath the private keyword)
+
+    ```Ruby
+    # Normal public method
+    def my_method
+      puts my_text
+    end
+
+    private
+
+      def my_text
+        'hello world'
+      end
+    ```
 
 ## Documentation
 
